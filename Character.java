@@ -94,7 +94,7 @@ public class Character extends Drawable {
         idleCounter = 0;
         idleNum = 1;
         collisionOn = false;
-        hitSound = new Sound("hit.wav");
+        hitSound = new Sound("assets/hit.wav");
     }
 
     /**
@@ -438,7 +438,7 @@ public class Character extends Drawable {
     public BufferedImage setup(String imagePath, int width, int height) {
         BufferedImage scaledImage;
         try {
-            scaledImage = ImageIO.read(getClass().getResourceAsStream(imagePath + ".png"));
+            scaledImage = ImageIO.read(getClass().getResourceAsStream("assets/" + imagePath + ".png"));
             scaledImage = scaleImage(scaledImage, width, height);
         } catch (IOException e) {
             throw new RuntimeException(e);

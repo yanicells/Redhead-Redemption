@@ -27,7 +27,7 @@ public class Key extends Item{
     public Key() {
         name = "Key";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("key.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("assets/key.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

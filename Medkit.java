@@ -33,7 +33,7 @@ public class Medkit extends Item{
         type = 2;
         name = "Medkit";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("Medkit.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("assets/Medkit.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

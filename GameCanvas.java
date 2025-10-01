@@ -149,12 +149,12 @@ public class GameCanvas extends JComponent implements Runnable {
         dialogueState = 3;
         characterStatus = 4;
         gameState = dialogueState;
-        currentMusic = new Sound("bg.wav");
+        currentMusic = new Sound("assets/bg.wav");
         currentMusic.loop();
-        zombieSound = new Sound("zombie.wav");
+        zombieSound = new Sound("assets/zombie.wav");
         zombieSound.loop();
-        soundRefill = new Sound("refill.wav");
-        soundHeal = new Sound("heal.wav");
+        soundRefill = new Sound("assets/refill.wav");
+        soundHeal = new Sound("assets/heal.wav");
 
 
         playerCurrentMap = new int[5];
@@ -442,7 +442,7 @@ public class GameCanvas extends JComponent implements Runnable {
         if (!gameStarted) {
             BufferedImage startScreen = null;
             try {
-                startScreen = ImageIO.read(getClass().getResourceAsStream("startscreen.png"));
+                startScreen = ImageIO.read(getClass().getResourceAsStream("assets/startscreen.png"));
             } catch (IOException e) {
                 e.printStackTrace();
             }

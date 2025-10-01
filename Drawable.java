@@ -56,7 +56,7 @@ public abstract class Drawable {
     public BufferedImage setup(String imagePath, int width, int height) {
         BufferedImage scaledImage;
         try {
-            scaledImage = ImageIO.read(getClass().getResourceAsStream(imagePath + ".png"));
+            scaledImage = ImageIO.read(getClass().getResourceAsStream("assets/" + imagePath + ".png"));
             scaledImage = scaleImage(scaledImage, width, height);
         } catch (IOException e) {
             throw new RuntimeException(e);

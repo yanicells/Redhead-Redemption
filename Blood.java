@@ -29,9 +29,9 @@ public class Blood {
      */
     public Blood() {
         try {
-            lightDamage = ImageIO.read(getClass().getResourceAsStream("lightDamage.png"));
-            mediumDamage = ImageIO.read(getClass().getResourceAsStream("mediumDamage.png"));
-            hardDamage = ImageIO.read(getClass().getResourceAsStream("hardDamage.png"));
+            lightDamage = ImageIO.read(getClass().getResourceAsStream("assets/lightDamage.png"));
+            mediumDamage = ImageIO.read(getClass().getResourceAsStream("assets/mediumDamage.png"));
+            hardDamage = ImageIO.read(getClass().getResourceAsStream("assets/hardDamage.png"));
 
 
         } catch (IOException e) {

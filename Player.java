@@ -70,13 +70,13 @@ public class Player extends Character {
         getPlayerImage();
         getAttackImage();
 
-        soundWalk = new Sound("walk.wav");
-        soundRun = new Sound("run.wav");
-        soundAttack = new Sound("attack.wav");
-        soundShoot = new Sound("shoot.wav");
-        soundIdle = new Sound("idle.wav");
-        soundPickup = new Sound("pickup.wav");
-        soundHit = new Sound("hit.wav");
+        soundWalk = new Sound("assets/walk.wav");
+        soundRun = new Sound("assets/run.wav");
+        soundAttack = new Sound("assets/attack.wav");
+        soundShoot = new Sound("assets/shoot.wav");
+        soundIdle = new Sound("assets/idle.wav");
+        soundPickup = new Sound("assets/pickup.wav");
+        soundHit = new Sound("assets/hit.wav");
 
     }
 

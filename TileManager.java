@@ -42,9 +42,9 @@ public class TileManager {
         tiles = new ArrayList<>();
         mapTileNum = new int[gameCanvas.maxMapNum][gameCanvas.maxWorldCol][gameCanvas.maxWorldRow];
         getTileImage();
-        loadMap("Map.txt", 0);
-        loadMap("Map3.txt", 1);
-        loadMap("Map2.txt", 2);
+        loadMap("assets/Map.txt", 0);
+        loadMap("assets/Map3.txt", 1);
+        loadMap("assets/Map2.txt", 2);
     }
 
     /**
@@ -83,7 +83,7 @@ public class TileManager {
     public void setup(int index, String imagePath, boolean collision) {
         try {
             tiles.add(new Tile());
-            tiles.get(index).image = ImageIO.read(getClass().getResourceAsStream(imagePath + ".png"));
+            tiles.get(index).image = ImageIO.read(getClass().getResourceAsStream("assets/" + imagePath + ".png"));
             tiles.get(index).image = scaleImage(tiles.get(index).image, GameCanvas.tileSize, GameCanvas.tileSize);
             tiles.get(index).collision = collision;
         } catch (IOException e) {

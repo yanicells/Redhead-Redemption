@@ -189,11 +189,11 @@ public class EventHandler {
             gameCanvas.currentMusic.stop();
         }
 
-        String musicFile = "bg.wav";
+        String musicFile = "assets/bg.wav";
         if (map == 1) {
-            musicFile = "piano.wav";
+            musicFile = "assets/piano.wav";
         } else if (map == 2) {
-            musicFile = "trees.wav";
+            musicFile = "assets/trees.wav";
         }
         gameCanvas.currentMusic = new Sound(musicFile);
         gameCanvas.currentMusic.loop(); // or .play()

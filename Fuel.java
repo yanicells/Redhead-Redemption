@@ -28,7 +28,7 @@ public class Fuel extends Item{
     public Fuel() {
         name = "Fuel";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("fuel.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("assets/fuel.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

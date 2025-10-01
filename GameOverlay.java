@@ -58,7 +58,7 @@ public class GameOverlay {
         this.gameCanvas = gameCanvas;
         font = new Font("Arial", Font.ITALIC, 40);
         largeFont = new Font("Arial", Font.BOLD, 80);
-        InputStream pixelFont = getClass().getResourceAsStream("Pixel.ttf");
+        InputStream pixelFont = getClass().getResourceAsStream("assets/Pixel.ttf");
         try {
             pixel = Font.createFont(Font.TRUETYPE_FONT, pixelFont);
         } catch (FontFormatException e) {
@@ -68,10 +68,10 @@ public class GameOverlay {
         }
 
         try {
-            startScreen = ImageIO.read(getClass().getResourceAsStream("startscreen.png"));
-            diedScreen = ImageIO.read(getClass().getResourceAsStream("diedscreen.png"));
-            lostScreen = ImageIO.read(getClass().getResourceAsStream("lostscreen.png"));
-            gameOverScreen = ImageIO.read(getClass().getResourceAsStream("gameoverscreen.png"));
+            startScreen = ImageIO.read(getClass().getResourceAsStream("assets/startscreen.png"));
+            diedScreen = ImageIO.read(getClass().getResourceAsStream("assets/diedscreen.png"));
+            lostScreen = ImageIO.read(getClass().getResourceAsStream("assets/lostscreen.png"));
+            gameOverScreen = ImageIO.read(getClass().getResourceAsStream("assets/gameoverscreen.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

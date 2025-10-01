@@ -28,7 +28,7 @@ public class Ammo extends Item {
     public Ammo() {
         name = "Ammo";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("ammo.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("assets/ammo.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

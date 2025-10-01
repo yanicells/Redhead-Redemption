@@ -28,10 +28,10 @@ public class Gun extends Item{
     public Gun() {
         name = "Gun";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("default.png"));
-            image2 = ImageIO.read(getClass().getResourceAsStream("smg.png"));
-            image3 = ImageIO.read(getClass().getResourceAsStream("rifle.png"));
-            image4 = ImageIO.read(getClass().getResourceAsStream("shotgun.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("assets/default.png"));
+            image2 = ImageIO.read(getClass().getResourceAsStream("assets/smg.png"));
+            image3 = ImageIO.read(getClass().getResourceAsStream("assets/rifle.png"));
+            image4 = ImageIO.read(getClass().getResourceAsStream("assets/shotgun.png"));
 
         } catch (IOException e) {
             throw new RuntimeException(e);

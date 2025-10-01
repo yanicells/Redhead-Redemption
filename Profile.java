@@ -27,8 +27,8 @@ public class Profile extends Item{
     public Profile() {
         name = "Profile";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("Profile.png"));
-            image2 = ImageIO.read(getClass().getResourceAsStream("ProfileDead.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("assets/Profile.png"));
+            image2 = ImageIO.read(getClass().getResourceAsStream("assets/ProfileDead.png"));
 
         } catch (IOException e) {
             throw new RuntimeException(e);
