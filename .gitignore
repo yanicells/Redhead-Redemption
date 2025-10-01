@@ -1,0 +1,36 @@
+# Compiled class files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Log and temporary files
+*.log
+*.tmp
+/temp/
+
+# IntelliJ IDEA files
+# .idea directory stores project-specific settings
+.idea/
+
+# Gradle files (if you used Gradle, even without external libraries)
+# Only include if you used Gradle
+.gradle/
+build/
+
+# Maven files (if you used Maven)
+# Only include if you used Maven
+target/
+
+# Out directory (where IntelliJ typically puts compiled output)
+out/
+
+# Local configuration and system files
+*.iml
+.DS_Store
+Thumbs.db
