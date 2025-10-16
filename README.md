@@ -18,6 +18,9 @@ Suddenly, being a ginger was no longer a curse. And while we couldn't turn, we c
 
 Redhead Redemption is a top-down pixel multiplayer shooter set in a zombie apocalypse. You and your fellow redheads fight through waves of zombies, complete objectives, upgrade your weapons and try to reach safety. Work together or go solo across different maps, each with new challenges.
 
+###
+A demo of the app can be found through this link [https://drive.google.com/file/d/1TRlHSFsdRRIZ71WZ5kfUPuQtJw5qbnDf/view]
+
 ## How to Run the Game
 
 ### Prerequisites
