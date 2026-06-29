@@ -12,7 +12,7 @@ But here's the kicker: the infected wouldn't touch us gingers. Scientists said i
 
 Suddenly, being a ginger was no longer a curse. And while we couldn't turn, we could still die. We've heard of a safe zone up north. A helicopter is waiting on the other side uptown.
 
-**It's time for Redhead Redemption.**
+**It's time for Redhead Redemption!**
 
 ### Description
 
